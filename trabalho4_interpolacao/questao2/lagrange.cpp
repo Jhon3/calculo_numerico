@@ -15,7 +15,7 @@ int main()
     std::cout << "Insira um x para obter o f(x): ";
     std::cin >> xbarra;
    
-    resultado = lagrange(x, y, 4,xbarra);
+    ybarra = lagrange(x, y, 4,xbarra);
     std::cout << ">>f(" << xbarra << ") = " << ybarra << std::endl;
     return 0;
 }
